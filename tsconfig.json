@@ -1,0 +1,30 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "module": "ESNext",
+    "target": "esnext",
+    // "moduleResolution": "node",
+    "jsx": "preserve",
+    // "noUnusedLocals": false,
+    // "noUnusedParameters": false,
+    "strictNullChecks": true, // Consider setting to false to reduce strictness if needed
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+  // "include": ["src/**/*"]
+}
